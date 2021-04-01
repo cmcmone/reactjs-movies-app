@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 150px;
+}
+
+.header input {
+  font-size: 1em;
+  height: 1.5em;
+  border: 0;
+  border-bottom: 1px solid #c8cccf;
+  outline: none;
+  vertical-align: middle;
+}
