@@ -1,9 +1,15 @@
 import React from 'react'
 
+import Logo from './Logo'
+import Search from './Search'
+
+import '../../assets/css/header.css'
+
 export default function Header() {
   return (
-    <div>
-      Here is the Header
+    <div className='header'>
+      <Logo />
+      <Search />
     </div>
   )
 }

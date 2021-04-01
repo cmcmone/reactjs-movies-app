@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react';
+
+import { SearchContext } from '../../Context';
 
 export default function Content() {
-  return (
-    <div>
-      Here is the content
-    </div>
-  )
+  const [searchContext] = useContext(SearchContext);
+  return <div>Here is the content {searchContext} </div>;
 }
