@@ -4,18 +4,18 @@ import Header from './components/header';
 import Content from './components/content';
 import Footer from './components/footer';
 
-import { SearchContext } from './Context';
+import { MovieInfoContext } from './Context';
 
 import './assets/css/app.css';
 
 function App() {
-  const [searchContext, setSearchContext] = useState();
+  const [movieID, setMovieID] = useState();
   return (
     <div className="container">
-      <SearchContext.Provider value={[searchContext, setSearchContext]}>
+      <MovieInfoContext.Provider value={[movieID, setMovieID]}>
         <Header />
         <Content />
-      </SearchContext.Provider>
+      </MovieInfoContext.Provider>
       <Footer />
     </div>
   );
