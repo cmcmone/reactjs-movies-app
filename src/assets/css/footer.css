@@ -1,0 +1,42 @@
+@import './style.css';
+
+.footer {
+  padding: 20px 0;
+  font-size: 0.9em;
+  width: 100%;
+  text-shadow: 1px 1px 1px black;
+  min-width: 920px;
+}
+
+.footer span {
+  text-align: center;
+  display: block;
+  padding: 0 0 10px;
+  text-decoration: none;
+  color: gray;
+  transition: 0.7s;
+  padding: 8px;
+}
+
+.footer .github-repo::before {
+  content: '\eab0\00A0\00A0\00A0';
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.7s;
+  padding: 8px;
+}
+
+.footer span a:hover {
+  color: #00fc87;
+  transition: 0.7s;
+  outline-width: 0;
+}
+
+.footer .developer:hover {
+    color: #00fc87;
+  transition: 0.7s;
+  outline-width: 0;
+}
