@@ -69,8 +69,6 @@ export default function Content() {
       : posterImg;
   }, [poster_path]);
 
-  console.log('render:',movieID, poster_path);
-
   return (
     <div className="content">
       <div className="poster">
