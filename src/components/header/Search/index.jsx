@@ -18,6 +18,10 @@ export default function Search() {
     }
   }, [datalist, setMovieID]);
 
+  useEffect(() => {
+    inputEl.current.focus();
+  }, [])
+
   return (
     <div className='search'>
       <input
